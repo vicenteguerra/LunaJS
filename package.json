@@ -1,0 +1,27 @@
+{
+  "name": "LunaJSBase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "luna:new-domain": "node console/luna-new-domain.js",
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-serverless-express": "^3.3.8",
+    "body-parser": "~1.16.0",
+    "cors": "^2.8.5",
+    "debug": "~2.6.0",
+    "dotenv": "^10.0.0",
+    "express": "~4.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.5",
+    "mysql2": "^2.3.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "command-line-args": "^5.2.0",
+    "minimist": "^1.2.5"
+  }
+}
